@@ -14,6 +14,7 @@ body{
     color: var(--text-color);
     padding-top: 70px;
     background-color: #cbcbcb;
+    margin: 0;
 }
 
 a{
@@ -29,19 +30,41 @@ a{
     color: black;
     text-transform: uppercase;
 }
+.map {
+    width: 50%;
+    height: 400px;
+}
+.map-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media (max-width: 950px){
     .title{
         font-family: 'Montserrat', sans-serif;
         align-items: center;
         text-align: center;
-        font-size: 18px;
+        font-size: 4vh;
         font-weight: bold;
         color: black;
         text-transform: uppercase;
     }
-    .hidden {
-        visibility: hidden !important;
+    .map {
+        width: 90%;
+        height: 40vh;
+    }
+    .map-container{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
     }
 }
-
+/* #swiper-container{
+    position: relative;
+} */
+/* #mySwiper{
+    z-index: -1;
+    position: absolute;
+} */

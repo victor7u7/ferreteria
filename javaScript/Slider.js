@@ -1,5 +1,5 @@
 // Define la variable del delay en segundos
-const autoplayDelayInSeconds = 8;
+const autoplayDelayInSeconds = 9;
 
 document.addEventListener('DOMContentLoaded', function () {
   var mySwiper = new Swiper('.swiper', {
@@ -12,15 +12,14 @@ document.addEventListener('DOMContentLoaded', function () {
           el: '.swiper-pagination',
           clickable: true,
       },
-
-      
-        effect: "coverflow",
         grabCursor: true,
         centeredSlides: true,
         slidesPerView: "auto",
         /* que se repita o no imagenes */
         loop:true,
         /*  */
+
+         effect: "coverflow",
         coverflowEffect: {
           rotate: 50,
           stretch: 0,

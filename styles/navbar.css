@@ -5,6 +5,7 @@
     left: 0;
     top: 0;
     width: 100%;
+    z-index: 10;
 }
 .topnav{
     display: flex;
@@ -89,14 +90,12 @@
         }
         .menu li{
             padding: 0;
-            
         }
         
         .menu a{
             color: var(--text-color-inverse);
             line-height: 60px;
             font-size: 2.5vh;
-
         }
         .open-menu,
         .close-menu {
@@ -104,17 +103,14 @@
             border: none;
             background: none;
             cursor: pointer;
-            
         }
         .close-menu{
             align-self: flex-end;
             padding: 13px 16px;
-            
         }
         .menu_opened {
             opacity: 1;
             pointer-events: all;
-            
         }
         
         .open-menu:focus:not(:focus-visible),
