@@ -40,8 +40,13 @@ a{
         color: black;
         text-transform: uppercase;
     }
-    .hidden {
-        visibility: hidden !important;
-    }
+ 
 }
 
+#swiper-container{
+    position: relative;
+}
+#mySwiper{
+    z-index: -1;
+    position: absolute;
+}
