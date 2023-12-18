@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
         loop:true,
         /*  */
 
-         effect: "coverflow",
+        effect: "coverflow",
         coverflowEffect: {
           rotate: 50,
           stretch: 0,
@@ -33,8 +33,5 @@ document.addEventListener('DOMContentLoaded', function () {
           disableOnInteraction: false,
         }
       });
-
-
-      
-});
+})
 
