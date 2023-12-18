@@ -1,5 +1,5 @@
 // Define la variable del delay en segundos
-const autoplayDelayInSeconds = 8;
+const autoplayDelayInSeconds = 2;
 
 document.addEventListener('DOMContentLoaded', function () {
   var mySwiper = new Swiper('.swiper', {
