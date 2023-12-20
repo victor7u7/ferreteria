@@ -18,7 +18,12 @@ function toggleMenu() {
     }
 
 }
-
-
 openMenuBtn.addEventListener("click", toggleMenu);
 closeMenuBtn.addEventListener("click", toggleMenu);
+
+const menulinks = document.querySelectorAll(".menu a[href^=\"#\"]")
+    menulinks.forEach(menulink =>{
+        menulink.addEventListener("click", function(){
+            menu.classList.remove("menu_opened");
+        })
+    })

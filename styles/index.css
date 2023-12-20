@@ -7,6 +7,12 @@
     --navbar-sallow-color: rgb(0, 0, 0);
     --menu-mobile-background-color:#343434; 
 }
+html{
+    scroll-behavior: smooth;
+}
+.inicio-body{
+    background-color:var(--primary-color) ;
+}
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -15,6 +21,21 @@ body{
     padding-top: 70px;
     background-color: #cbcbcb;
     margin: 0;
+}
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    width: 70%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: 450; 
+    line-height: 2;
+    align-items: center;
+    margin: auto;
+    text-align: left;
 }
 
 a{
@@ -25,21 +46,23 @@ a{
     font-family: 'Montserrat', sans-serif;
     align-items: center;
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     color: black;
     text-transform: uppercase;
+    padding-top: 70px;
 }
 .map {
-    width: 50%;
-    height: 400px;
+    width: 70%;
+    height: 500px;
 }
 .map-container{
-    margin-top: 100px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 @media (max-width: 950px){
     .title{
@@ -56,7 +79,7 @@ a{
         height: 40vh;
     }
     .map-container{
-        margin-top: 50px;
+        margin-top: 10px;
         display: flex;
         justify-content: center;
     }

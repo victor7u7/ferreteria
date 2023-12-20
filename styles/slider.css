@@ -13,6 +13,7 @@
 .swiper-slide img {
     display: block;
     width: 100%;
+    height: 100%;
 }
 
 .swiper-hero .swiper-button-prev,
@@ -29,13 +30,13 @@
 
 .swiper-hero .swiper-button-prev {
     border-radius: 0 65px 65px 0;
-    left: -10px;
+    left: 10px;
 
 }
 
 .swiper-hero .swiper-button-next {
     border-radius: 65px 0 0 65px;
-    right: -10;
+    right: 20;
 
 }
 
@@ -63,4 +64,30 @@
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
 
 }
+@media (max-width: 950px){
+    .swiper-hero {
+        width: 90%;
+    }
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+    }
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-hero .swiper-button-prev,
+.swiper-hero .swiper-button-next {
+    --swiper-navigation-size: 20px;
+    background-color: white;
+    height: 50px;
+    width: 40px;
+    margin-top: -35px;
+    opacity: 0;
+    transition: opacity 0.3s;
 
+}
+}
